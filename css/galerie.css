@@ -1,0 +1,12 @@
+body, h1 {
+	margin: 0%;
+}
+
+.backgroundimg {
+	background-image: url("../img/PC/fondecrantattoo.jpg");
+	width: 100%;
+}
+
+img:hover {
+	transform: scale(1.5);
+}
