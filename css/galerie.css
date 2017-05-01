@@ -2,11 +2,85 @@ body, h1 {
 	margin: 0%;
 }
 
-.backgroundimg {
-	background-image: url("../img/PC/fondecrantattoo.jpg");
-	width: 100%;
+/*---------------------------------------------SMARTPHONE---------------------------------------------*/
+
+h1, .imgfooter {
+	position: relative;
 }
 
+.container li a, .containerfooter a {
+	color: #222222;
+}
+
+.container, .containerfooter {
+	display: flex;
+} 
+
+/*-------------------------------------------BACKGROUNDIMG--------------------------------------------*/
+
+.backgroundimg {
+	background-image: url(../img/Smartphone/fondecrantattoo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+/*-----------------------------------------HEADER------------------------------------------------------*/
+
+header {
+	display: inline-flex;
+	margin-top: 10%;
+}
+
+h1 {
+	height: 45px;
+	left: 3%;
+	color: #3A3A3A;
+}
+
+.container {
+	flex-wrap: wrap;
+	width: 65%;
+	justify-content: space-between;
+	list-style: none;
+	margin-top: 10%;
+}
+
+/*-------------------------------------------MAIN--------------------------------------------------------*/
+
 img:hover {
-	transform: scale(1.5);
+	transform: scale(1.2);
+}
+
+img {
+	margin: 2%;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px 2px #111;
+}
+
+/*-----------------------------------------------FOOTER-----------------------------------------------------*/
+
+.imgfooter {
+	border-radius: 0px;
+	box-shadow: none;
+	width: 15%;
+	left: 40%;
+	margin: 0;
+}
+
+.containerfooter {
+	flex-direction: column;
+	margin-top: 10%;
+	text-align: center;
+	height: 270px;
+}
+
+.containerfooter a {
+	margin-bottom: 10%;
+}
+
+.containerfooter a:hover {
+	color: white;
 }
