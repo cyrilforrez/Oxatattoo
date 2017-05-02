@@ -24,7 +24,6 @@ h1, .imgfooter {
 	background-position: center;
     background-size: cover;
     width: 100%;
-    
 }
 
 /*-----------------------------------------HEADER------------------------------------------------------*/
@@ -58,7 +57,11 @@ img {
 	margin: 2%;
 	border-radius: 20px;
 	box-shadow: 2px 2px 5px 2px #111;
+	margin-left: 15%;
+	margin-bottom: 20px;
 }
+
+
 
 /*-----------------------------------------------FOOTER-----------------------------------------------------*/
 
@@ -83,4 +86,95 @@ img {
 
 .containerfooter a:hover {
 	color: white;
+}
+
+/*-----------------------------------------------TABLETTE-----------------------------------------------------*/
+
+@media (min-width: 768px) {
+	
+/*---------------------------------------------BACKGROUNDIMG---------------------------------------------*/
+
+	.backgroundimg {
+		background-image: url(../img/Tablette/fondecrantattoo.jpg);  
+	}
+
+/*----------------------------------------------HEADER-----------------------------------------------------*/
+
+	header {
+		flex-direction: column;
+	}
+
+	h1 {
+		font-size: 70px;
+		left: 51%;
+		width: 50%;
+		margin-top: 6%;
+
+	}
+
+	nav {
+		margin-top: 20%;
+		position: relative;
+		width: 196%;
+	}
+
+	.container {
+		background-color: #9999;
+		width: 91%;
+		padding-right: 4%;
+	}
+
+	nav ul li {
+		border-style: outset;
+		padding: 5%;
+	}
+
+	nav ul li a {
+		margin: 2%;
+		font-size: 20px;
+	}
+
+/*------------------------------------------------------MAIN-----------------------------------------------*/
+
+	.containerimg img {
+		margin: 5%;
+	}
+
+/*-----------------------------------------------FOOTER--------------------------------------------------------*/
+
+	.imgfooter{
+		border-radius: 0px;
+		box-shadow: none;
+		width: 5%;
+		left: 0%;
+		margin-left: 5%;
+	}
+
+	.containerfooter {
+		height: 40px;
+		flex-direction: row;
+	}
+}
+
+/*---------------------------------------------------PC--------------------------------------------------------*/
+
+@media (min-width: 1280px) {
+
+/*-------------------------------------------------BACKGROUNDIMG-------------------------------------------*/
+
+	
+
+
+/*--------------------------------------------HEADER-------------------------------------------------------*/
+
+	h1 {
+		left: 113%;
+		font-size: 60px;
+	}
+
+	.containerimg img {
+		margin: 1%;
+	}
+
+
 }
